@@ -33,10 +33,7 @@ def http_request_with_method(url: str, method: str):
     Args:
         url (str): The URL to send the request to
         method (str): HTTP method (GET, POST, PUT, DELETE, etc.). Default is 'GET'
-        headers (dict, optional): HTTP headers to include in the request
-        data (str/dict, optional): Data to send in the request body
-        params (dict, optional): URL parameters for GET requests
-        timeout (int): Request timeout in seconds. Default is 30
+       
     
     Returns:
         Union[str, Dict[str, Any], bytes]: Response data in its original format
