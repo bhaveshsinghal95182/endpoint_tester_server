@@ -80,3 +80,6 @@ def detailed_http_request( url: str,
         requests.exceptions.HTTPError: For HTTP error status codes
     """
     return send_http_request(url, method, headers, data, params)
+
+if __name__ == "__main__":
+    mcp.run()
